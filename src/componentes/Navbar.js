@@ -5,7 +5,6 @@ import { getCart } from '../store/slices/cart.slices';
 import { useDispatch } from 'react-redux';
 import { Button } from 'react-bootstrap';
 import CardSidebar from './CardSidebar';
-import Button from 'react-bootstrap/esm/Button';
 
 const Navbar = () => {
 
@@ -44,9 +43,9 @@ const Navbar = () => {
             </div>
 
             <ul className='list-navbar'>
-                <li><Button><i className="fa-thin fa-user" onClick={toLogin}></i></Button></li>
-                <li><Button><i className="fa-thin fa-shop" onClick={toPurchases}></i></Button></li>
-                <li><Button onClick={handleShow}><i className="fal fa-shopping-cart"></i></Button></li>
+                <li><Button><i className="fa-solid fa-user" onClick={toLogin}></i></Button></li>
+                <li><Button><i className="fa-solid fa-shop" onClick={toPurchases}></i></Button></li>
+                <li><Button onClick={handleShow}><i className="fa-solid fa-cart-shopping"></i></Button></li>
             </ul>
             
         </header>
