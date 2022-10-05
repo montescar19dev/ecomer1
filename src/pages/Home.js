@@ -111,6 +111,9 @@ const Home = () => {
             </div>
           </li>
         ))}
+        <footer className="footer">
+          <h1>Hecho en Academlo</h1>
+        </footer>
       </div>
     </div>
   );

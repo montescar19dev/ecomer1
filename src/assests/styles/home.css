@@ -45,6 +45,20 @@ ul{
     width: 50%;
 }
 
+.footer{
+    width: 100%;
+    background-color: skyblue;
+    height: 300px;
+}
+
+.footer h1{
+    text-align: center;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+}
+
 @media (min-width: 700px) { 
 
     .cards-container {
