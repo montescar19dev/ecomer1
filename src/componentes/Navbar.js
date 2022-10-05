@@ -40,6 +40,8 @@ const Navbar = () => {
         <>
         <header className='nav-container'>
             <div className='logo'>
+                <h1>Ecommerce</h1>
+
                 <img src={logo} alt="logo" onClick={toHome} />
             </div>
 
