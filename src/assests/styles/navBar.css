@@ -1,9 +1,9 @@
 .nav-container {
-    background-color: skyblue;
+    background-color: white;
     display: flex;
     height: 80px;
     justify-content: space-between; 
-    
+    position: sticky;
 }
 
 .list-navbar {
