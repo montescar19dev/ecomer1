@@ -21,9 +21,10 @@ ul{
 
 .product-wrapper{
     border-radius: 15px;
-    border: 4px solid skyblue;
+    border: 2px solid skyblue;
     padding: 1rem .5rem;
     width: 300px;
+    height: auto;
     margin: 1rem 1rem;
 }
 .product-image{
