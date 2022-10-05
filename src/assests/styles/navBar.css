@@ -4,6 +4,7 @@
     height: 80px;
     justify-content: space-between; 
     position: sticky;
+    border: 1px solid skyblue;
 }
 
 .list-navbar {
