@@ -1,0 +1,28 @@
+.nav-container {
+    background-color: #0081CF;
+    display: flex;
+    height: 80px;
+    justify-content: space-between; 
+    
+}
+
+.list-navbar {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.list-navbar li {
+    margin-right: 10px;
+}
+
+.logo img{
+    margin-top: 15px;
+    height: 60px;
+    width: auto;
+}
+
+

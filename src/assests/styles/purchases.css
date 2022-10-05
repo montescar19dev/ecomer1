@@ -1,0 +1,17 @@
+.purchases-wrapper{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    
+}
+
+.purchases-container{
+    border-radius: 15px;
+    border: 2px solid lightgray;
+    padding: 12px;
+}
+.title{
+    margin-top: 20px;
+    margin-bottom: -25px;
+}
