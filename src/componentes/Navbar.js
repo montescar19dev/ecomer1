@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../assests/styles/navBar.css'
-import logo from '../assests/images/logo.png'
 import { getCart } from '../store/slices/cart.slices';
 import { useDispatch } from 'react-redux';
 import { Button } from 'react-bootstrap';
@@ -40,9 +39,7 @@ const Navbar = () => {
         <>
         <header className='nav-container'>
             <div className='logo'>
-                <h1>Ecommerce</h1>
-
-                <img src={logo} alt="logo" onClick={toHome} />
+                <h1 onClick={toHome}>Ecommerce</h1>
             </div>
 
             <ul className='list-navbar'>

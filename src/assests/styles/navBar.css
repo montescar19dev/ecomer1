@@ -16,13 +16,13 @@
 }
 
 .list-navbar li {
-    margin-right: 30px;
+    margin-right: 80px;
 }
 
-.logo img{
+.logo h1{
     margin-top: 15px;
-    height: 60px;
-    width: auto;
+    font-weight: bolder;
+    color: white;
 }
 
 
