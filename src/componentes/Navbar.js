@@ -5,6 +5,7 @@ import { getCart } from '../store/slices/cart.slices';
 import { useDispatch } from 'react-redux';
 import { Button } from 'react-bootstrap';
 import CardSidebar from './CardSidebar';
+import Button from 'react-bootstrap/esm/Button';
 
 const Navbar = () => {
 
