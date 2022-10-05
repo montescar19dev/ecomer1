@@ -46,16 +46,17 @@ ul{
 }
 
 .footer{
-    width: 100%;
+    width: 100vh;
     background-color: skyblue;
     height: 300px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
 }
 
 .footer h1{
     text-align: center;
-    color: white;
-    align-items: center;
-    justify-content: center;
     font-weight: bolder;
 }
 
