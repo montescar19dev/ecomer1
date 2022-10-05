@@ -56,7 +56,7 @@ const ProductDetails = () => {
     return (
         <div className='product-detail-container'>
             <div className='product-container-principal'>
-            <Carousel style={{maxWidth:'500px'}} className='mx-auto'>
+            <Carousel style={{maxWidth:'200px'}} className='mx-auto'>
                 <Carousel.Item >
                     <img
                         style={{minWidth: "200px",
