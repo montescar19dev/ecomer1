@@ -1,5 +1,5 @@
 .nav-container {
-    background-color: #0081CF;
+    background-color: skyblue;
     display: flex;
     height: 80px;
     justify-content: space-between; 
@@ -16,7 +16,7 @@
 }
 
 .list-navbar li {
-    margin-right: 10px;
+    margin-right: 30px;
 }
 
 .logo img{
