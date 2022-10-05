@@ -24,7 +24,7 @@ ul{
 }
 .product-image{
     align-items: center;
-    border-bottom: 1px solid #0089BA;
+    border-bottom: 1px solid red;
     display: flex;
     height: 250px;
     justify-content:center;
