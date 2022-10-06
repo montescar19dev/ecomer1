@@ -35,7 +35,7 @@ const Login = () => {
                 <div className='testData-container'>
                     <h5>Test data</h5>
                     <div>
-                        <p><i class="fa-light fa-envelope"></i> carrito@gmail.com</p>
+                        <p><i class="fa-light fa-envelope"></i><i class="fa-regular fa-envelope"></i> carrito@gmail.com</p>
                         <p><i class="fa-light fa-lock"></i> carrito1234</p>
                     </div>
                 </div>
