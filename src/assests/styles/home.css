@@ -27,6 +27,7 @@ ul{
     width: 280px !important;
     height: auto;
     margin: 1rem 1rem;
+    cursor: pointer;
 }
 
 .product-info{
