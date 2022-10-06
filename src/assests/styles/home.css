@@ -49,7 +49,7 @@ ul{
 .footer{
     width: 100%;
     background-color: #0d6efd;
-    height: 150px;
+    height: 100px;
     color: white;
     margin-top: 50px;
     align-items: center;
@@ -63,6 +63,7 @@ ul{
     align-items: center;
     align-content: center;
     justify-content: center;
+    padding-top: 2rem;
 }
 
 @media (min-width: 700px) { 
