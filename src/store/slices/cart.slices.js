@@ -30,7 +30,7 @@ export const addToCart = (addCart) => (dispatch) => {
     return axios.post(baseUrl+'/cart',addCart,getConfig())
         .then(() => {
             dispatch(getCart());
-            alert("Se Añadio un producto")
+            alert("A product was added")
         })
         .catch(error=>console.log(error.response))
         .finally(() => dispatch(setIsloading(false)));
@@ -41,7 +41,7 @@ export const purchaseCart = () => (dispatch) => {
     return axios.post(baseUrl+"/purchases", {}, getConfig())
         .then(() =>{
              dispatch(setCart([]))
-             alert("Compra Realizada!")
+             alert("Thank you, your purchase was successful")
             })
 
         .catch(error => console.log(error.response))
