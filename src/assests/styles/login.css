@@ -39,7 +39,7 @@
     flex-direction: column;
     padding: 0 50px;
     text-align: start;
-    gap: 7px;
+    gap: 3px;
 }
 
 .form-container input{
