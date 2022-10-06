@@ -35,8 +35,8 @@ const Login = () => {
                 <div className='testData-container'>
                     <h4>Test data</h4>
                     <div>
-                        <p><b>User:</b> mason@gmail.com</p>
-                        <p><b>Password:</b> mason1234</p>
+                        <p><b>User:</b> carrito@gmail.com</p>
+                        <p><b>Password:</b> carrito1234</p>
                     </div>
                 </div>
                 <form onSubmit={handleSubmit(submit)} className='form-container'>
