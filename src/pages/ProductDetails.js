@@ -56,12 +56,12 @@ const ProductDetails = () => {
     return (
         <div className='product-detail-container'>
             <div className='product-container-principal'>
-            <Carousel style={{maxWidth:'200px'}} className='mx-auto'>
+            <Carousel style={{maxWidth:'350px'}} className='mx-auto'>
                 <Carousel.Item >
                     <img
-                        style={{minWidth: "200px",
+                        style={{minWidth: "auto",
                             maxWidth: "274px",
-                            height:"350px"}}
+                            height:"auto"}}
                         className="d-block w-100"
                         src={product?.productImgs[0]}
                         alt="First slide"
@@ -70,9 +70,9 @@ const ProductDetails = () => {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        style={{minWidth: "200px",
+                        style={{minWidth: "auto",
                         maxWidth: "274px",
-                        height:"350px"}}
+                        height:"auto"}}
                         className="d-block w-100"
                         src={product?.productImgs[1]}
                         alt="Second slide"
@@ -82,9 +82,9 @@ const ProductDetails = () => {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        style={{minWidth: "200px",
-                        maxWidth: "300px",
-                        height:"350px"}}
+                        style={{minWidth: "auto",
+                        maxWidth: "274px",
+                        height:"auto"}}
                         className="d-block w-100"
                         src={product?.productImgs[2]}
                         alt="Third slide"
