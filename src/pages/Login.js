@@ -33,10 +33,10 @@ const Login = () => {
             <div className='login-container'>
                 <h2>Welcome! Enter your email and password to continue.</h2>
                 <div className='testData-container'>
-                    <h4>Temporal User</h4>
+                    <h5>Test data</h5>
                     <div>
-                        <p><b>User:</b> carrito@gmail.com</p>
-                        <p><b>Password:</b> carrito1234</p>
+                        <p><i class="fa-light fa-envelope"></i> carrito@gmail.com</p>
+                        <p><i class="fa-light fa-lock"></i> carrito1234</p>
                     </div>
                 </div>
                 <form onSubmit={handleSubmit(submit)} className='form-container'>
