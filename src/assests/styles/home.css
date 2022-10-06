@@ -28,6 +28,12 @@ ul{
     height: auto;
     margin: 1rem 1rem;
 }
+
+.product-info{
+    align-items: flex-end;
+    text-align: end;
+}
+
 .product-image{
     align-items: center;
     border-bottom: 1px solid #0d6efd;
