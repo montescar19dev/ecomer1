@@ -16,9 +16,7 @@ const baseUrl = "https://ecommerce-api-react.herokuapp.com/api/v1";
 
 const Home = () => {
   const [search, setSearch] = useState("");
-
-  const goHome = "https://incandescent-frangipane-8d0eae.netlify.app/"
-
+  
   const products = useSelector((state) => state.products);
   const dispatch = useDispatch();
 
@@ -89,7 +87,6 @@ const Home = () => {
                     key={category.id}
                     onClick={() => categoryFilter(category.id)}
                   >
-                    <p><a href={goHome}>All</a></p>
                     {category.name}
                   </div>
                 ))}
