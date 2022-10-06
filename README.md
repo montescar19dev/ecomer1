@@ -1,5 +1,5 @@
 # Users-CRUD
-4to entregable del módulo de React
+Proyecto final del módulo de React, Ecommerce
 
 Trabajo realizado por: <br/>
 José Mateo Riofrio Rosero <br/>
