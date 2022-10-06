@@ -19,6 +19,11 @@
     color: #0d6efd;
 }
 
+.login-container h4{
+    font-weight: bolder;
+    color: #0d6efd;
+}
+
 .testData-container{
     background-color: #d8f5fd;
     width: 50%;

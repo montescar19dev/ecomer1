@@ -31,7 +31,8 @@ const Login = () => {
     return (
         <div className='login-wrapper'>
             <div className='login-container'>
-                <h2>Welcome! <br/> Enter your email and password to continue.</h2>
+                <h2>Welcome! <br/></h2>
+                <h4>Enter your email and password to continue.</h4>
                 <div className='testData-container'>
                     <h5>Test data</h5>
                     <div>
