@@ -78,7 +78,7 @@ const Home = () => {
             <Accordion.Item eventKey="0">
               <Accordion.Header>
                 {" "}
-                <p>Filter</p>
+                <p>Filter by category: </p>
                 <i className="fa-solid fa-filter"></i>
               </Accordion.Header>
               <Accordion.Body>
