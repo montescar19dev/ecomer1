@@ -13,8 +13,11 @@ import { addToCart } from "../store/slices/cart.slices";
 
 const baseUrl = "https://ecommerce-api-react.herokuapp.com/api/v1";
 
+
 const Home = () => {
   const [search, setSearch] = useState("");
+
+  const goHome = "https://incandescent-frangipane-8d0eae.netlify.app/"
 
   const products = useSelector((state) => state.products);
   const dispatch = useDispatch();
@@ -78,7 +81,7 @@ const Home = () => {
             <Accordion.Item eventKey="0">
               <Accordion.Header>
                 {" "}
-                <p>Filter by category: </p>
+                <p>Filter by category:</p> {" "}
               </Accordion.Header>
               <Accordion.Body>
                 {categories.map((category) => (
@@ -86,6 +89,7 @@ const Home = () => {
                     key={category.id}
                     onClick={() => categoryFilter(category.id)}
                   >
+                    <p><a href={goHome}>All</a></p>
                     {category.name}
                   </div>
                 ))}

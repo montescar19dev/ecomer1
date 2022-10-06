@@ -41,7 +41,7 @@ export const purchaseCart = () => (dispatch) => {
     return axios.post(baseUrl+"/purchases", {}, getConfig())
         .then(() =>{
              dispatch(setCart([]))
-             alert("Thank you, your purchase was successful")
+             alert("Thank you, your purchase was successful!")
             })
 
         .catch(error => console.log(error.response))
