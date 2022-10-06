@@ -13,3 +13,23 @@
 body{
   background: whitesmoke;
 }
+
+.footer{
+  width: 100%;
+  background-color: #0d6efd;
+  height: 100px;
+  color: white;
+  margin-top: 50px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.footer h1{
+  text-align: center;
+  font-weight: bolder;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  padding-top: 1.5rem;
+}
