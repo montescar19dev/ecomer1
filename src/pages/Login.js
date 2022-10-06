@@ -46,7 +46,7 @@ const Login = () => {
 
                     <label htmlFor="password"></label>
                     <input type="password"  id='password' placeholder='Password' {...register("password")} />
-
+                    <br/><br/>
                     <button className='btn btn-success'>Login</button>
                 </form>
     
