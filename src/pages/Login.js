@@ -32,7 +32,7 @@ const Login = () => {
         <div className='login-wrapper'>
             <div className='login-container'>
                 <h2>Welcome! <br/></h2>
-                <h4>Enter your email and password to continue.</h4>
+                <h4>Enter your email and password <br/> to continue.</h4>
                 <div className='testData-container'>
                     <h5>Test data</h5>
                     <div>
@@ -46,7 +46,7 @@ const Login = () => {
 
                     <label htmlFor="password"></label>
                     <input type="password"  id='password' placeholder='Password' {...register("password")} />
-                    <br/><br/>
+                    <br/>
                     <button className='btn btn-success'>Login</button>
                 </form>
     
