@@ -41,13 +41,14 @@ const ProductDetails = () => {
     setProduct(productFind);
   }, [id, dispatch, productsList]);
 
-  const addCart = () => {
+  const addCart = (id) => {
     const productToAdd = {
       id: id,
       quantity: cart,
     };
     dispatch(addToCart(productToAdd));
   };
+
 
   return (
     <div className="product-detail-container">
