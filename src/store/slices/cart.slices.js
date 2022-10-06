@@ -29,7 +29,7 @@ export const addToCart = (addCart) => (dispatch) => {
     dispatch(setIsloading(true));
     return axios.post(baseUrl+'/cart',addCart,getConfig())
         .then(() => {
-            dispatch(getCart([]));
+            dispatch(getCart());
             alert("A product was added")
         })
         .catch(error=>console.log(error.response))
