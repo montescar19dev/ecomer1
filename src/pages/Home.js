@@ -79,7 +79,6 @@ const Home = () => {
               <Accordion.Header>
                 {" "}
                 <p>Filter by category: </p>
-                <i className="fa-solid fa-filter"></i>
               </Accordion.Header>
               <Accordion.Body>
                 {categories.map((category) => (
