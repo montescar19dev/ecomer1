@@ -33,7 +33,7 @@ const Login = () => {
             <div className='login-container'>
                 <h3>Welcome! Enter your email and password to continue.</h3>
                 <div className='testData-container'>
-                    <h4>Test data</h4>
+                    <h4>Temporal User</h4>
                     <div>
                         <p><b>User:</b> carrito@gmail.com</p>
                         <p><b>Password:</b> carrito1234</p>
