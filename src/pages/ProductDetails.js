@@ -55,7 +55,7 @@ const ProductDetails = () => {
         <Carousel style={{ maxWidth: "350px" }} className="mx-auto">
           <Carousel.Item>
             <img
-              style={{ minWidth: "auto", maxWidth: "274px", height: "auto" }}
+              style={{ minWidth: "auto", maxWidth: "274px", maxHeight: "350px", height: "auto" }}
               className="d-block w-100"
               src={product?.productImgs[0]}
               alt="First slide"
@@ -63,7 +63,7 @@ const ProductDetails = () => {
           </Carousel.Item>
           <Carousel.Item>
             <img
-              style={{ minWidth: "auto", maxWidth: "274px", height: "auto" }}
+              style={{ minWidth: "auto", maxWidth: "274px", maxHeight: "350px", height: "auto" }}
               className="d-block w-100"
               src={product?.productImgs[1]}
               alt="Second slide"
@@ -71,7 +71,7 @@ const ProductDetails = () => {
           </Carousel.Item>
           <Carousel.Item>
             <img
-              style={{ minWidth: "auto", maxWidth: "274px", height: "auto" }}
+              style={{ minWidth: "auto", maxWidth: "274px", maxHeight: "350px", height: "auto" }}
               className="d-block w-100"
               src={product?.productImgs[2]}
               alt="Third slide"
