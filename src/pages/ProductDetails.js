@@ -41,7 +41,7 @@ const ProductDetails = () => {
     setProduct(productFind);
   }, [id, dispatch, productsList]);
 
-  const addCart = (id) => {
+  const addCart = () => {
     const productToAdd = {
       id: id,
       quantity: cart,
