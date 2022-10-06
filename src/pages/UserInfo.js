@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import userImage from '../assests/images/user-image.png'
+import profile from '../assests/images/profile.jpg'
 
 
 const UserInfo = () => {
@@ -18,7 +18,7 @@ const UserInfo = () => {
             <div className="login-container">
                 <div className="login-user-info">
                     <div className='image-container'>
-                        <img src={userImage} alt="" className="user-avatar" />
+                        <img src={profile} alt="" className="user-avatar" />
                     </div>
                     <div>
                         <b>{localStorage.getItem("userName")}</b>
