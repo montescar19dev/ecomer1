@@ -17,7 +17,7 @@ const Login = () => {
             localStorage.setItem('token',res.data.data.token);
             localStorage.setItem('userName',res.data.data.user.firstName +" "+ res.data.data.user.lastName)
             navigate('/user');
-            alert("Welcome!");
+            alert("Welcome to our store!");
         })
         .catch(error=>{
             if(error.response.status===404){
