@@ -49,7 +49,7 @@ const CardSidebar = ({show,handleClose}) => {
                                         <p><b>Quantity:</b> {cartProduct.productsInCart.quantity}</p>
                                     </div>
                                     <div className='cart-product-2'>
-                                        <button onClick={() => removeItem(cartProduct.id)}><i className="fa-solid fa-trash"></i></button>
+                                        <button onClick={() => removeItem(cartProduct.id)}><i class="fa fa-trash-o" aria-hidden="true"></i></button>
                                     </div>
                                 </div>
                                 
