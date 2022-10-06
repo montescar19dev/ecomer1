@@ -28,7 +28,7 @@ function App() {
         </div>
       </HashRouter>
       <footer className="footer">
-        <h1>Hecho en Academlo</h1>
+        <h3>Hecho en Academlo</h3>
       </footer>
     </>
   );
