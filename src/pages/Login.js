@@ -36,7 +36,7 @@ const Login = () => {
                     <h5>Test data</h5>
                     <div>
                         <p><i class="fa-regular fa-envelope"></i> carrito@gmail.com</p>
-                        <p><i class="fa-regular fa-lock"></i> carrito1234</p>
+                        <p><i class="fa-solid fa-lock"></i> carrito1234</p>
                     </div>
                 </div>
                 <form onSubmit={handleSubmit(submit)} className='form-container'>
