@@ -41,10 +41,10 @@ const Login = () => {
                 </div>
                 <form onSubmit={handleSubmit(submit)} className='form-container'>
                     <label htmlFor="email">Email</label>
-                    <input type="email" id='email' {...register("email")} />
+                    <input type="email" id='email' placeholder='Email' {...register("email")} />
 
                     <label htmlFor="password">Password</label>
-                    <input type="password"  id='password' {...register("password")} />
+                    <input type="password"  id='password' placeholder='Password' {...register("password")} />
 
                     <button className='btn btn-success'>Login</button>
                 </form>
