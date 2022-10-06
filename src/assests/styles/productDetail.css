@@ -43,8 +43,8 @@
 }
 
 .image-options img {
-    min-width: 200px;
-    max-width: 300px;
+    min-width: auto;
+    max-width: auto;
     height: auto;
 
 }
@@ -130,10 +130,5 @@
         flex-direction: row;
         flex-wrap: wrap;
     }
-
-    /* .product-wrapper {
-        margin: 30px 30px;
-    } */
-
 
  }
