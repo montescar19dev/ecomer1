@@ -11,7 +11,7 @@ import { useNavigate } from "react-router-dom";
 import { Accordion } from "react-bootstrap";
 import { addToCart } from "../store/slices/cart.slices";
 
-const baseUrl = "https://e-commerce-api.academlo.tech/";
+const baseUrl = "https://e-commerce-api.academlo.tech/api/v1";
 
 
 const Home = () => {
