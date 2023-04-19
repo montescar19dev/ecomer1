@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import '../assests/styles/login.css'
 
 const Login = () => {
-    const baseUrl = 'https://ecommerce-api-react.herokuapp.com/api/v1';
+    const baseUrl = 'https://e-commerce-api.academlo.tech/api/v1';
 
     const { register, handleSubmit} = useForm();
     const navigate = useNavigate();
