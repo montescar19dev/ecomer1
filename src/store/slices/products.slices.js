@@ -2,7 +2,7 @@ import { createSlice } from '@reduxjs/toolkit';
 import axios from 'axios';
 import { setIsloading } from './isLoading.slice';
 
-const baseUrl = 'https://ecommerce-api-react.herokuapp.com/api/v1'
+const baseUrl = 'https://e-commerce-api.academlo.tech/api/v1'
 
 
 export const productsSlice = createSlice({
