@@ -28,7 +28,7 @@ function App() {
         </div>
       </HashRouter>
       <footer className="footer">
-        <h3>Hecho en Academlo</h3>
+        <h4>Hecho en Academlo por Jose Riofrio y Carlos Montes</h4>
       </footer>
     </>
   );
